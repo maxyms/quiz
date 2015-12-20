@@ -13,7 +13,7 @@ import java.util.Arrays;
  */
 public class SingleNumber {
     public int singleNumber(int[] nums) {
-        return singleNumber2(nums);
+        return singleXOR(nums);
     }
 
     private int singleNumberHard(int[] nums) {
